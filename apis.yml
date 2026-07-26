@@ -1,7 +1,19 @@
 aid: dotterel
 name: Dotterel
-description: Dotterel is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dotterel Technologies is an Auckland, New Zealand acoustics and audio-hardware
+  company founded in 2015 out of the Callaghan Innovation C-Prize. It began by
+  solving drone noise, building acoustic shrouds, low-noise propellers, and
+  onboard active audio-recording systems for UAVs used in film, security, and
+  noise mapping. That work led to Konos (now marketed as Konos Digital), an
+  80-element directional MEMS microphone array with a continuously variable
+  60-300 degree beam width that streams four channels of AES67 / SMPTE ST 2110
+  audio over a single Power-over-Ethernet cable, targeting film, broadcast, and
+  live-sports production. The microphone exposes a firmware-updatable on-device
+  HTTP control interface (a web page plus a POST control endpoint for beam
+  steering) rather than a public developer web API. Dotterel is backed by
+  Techstars (Adelaide 2017 cohort) and is tracked here as a hardware company;
+  it publishes no public API specification, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/dotterel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://konos-sound.com/assets/logos/konos-logo-white.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Audio
+- Microphones
+- Acoustics
+- Hardware
+- Drones
+- Broadcast
+- Film Production
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://dotterel.co.nz/
+  url: https://konos-sound.com/
+- type: Support
+  url: https://konos-sound.com/support
+- type: PrivacyPolicy
+  url: https://konos-sound.com/privacy-policy
+- type: DomainSecurity
+  url: security/dotterel-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
