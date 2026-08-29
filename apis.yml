@@ -15,6 +15,9 @@ description: >-
   Techstars (Adelaide 2017 cohort) and is tracked here as a hardware company;
   it publishes no public API specification, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/dotterel/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Dotterel is backed by Techstars (Adelaide 2017 cohort) and is tracked here as a hardware company; it publishes no public API specification, SDK, or developer portal."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
